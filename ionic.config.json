@@ -1,0 +1,7 @@
+{
+  "name": "respiraReciclaApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
