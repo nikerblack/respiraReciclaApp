@@ -1,1 +1,61 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="mainContent">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Respira Recicla
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content style="background:url(assets/img/yErgqGR2TVWPUT8hEoPD_blank-close-up-crumpled.jpg) no-repeat center;background-size:cover;" id="side-menu21">
+    <ion-card id="respiraRecicla-card21">
+      <ion-list>
+        <ion-item color="none" menuClose="" on-click="goToAprendeAReciclarJugando()" id="respiraRecicla-list-item3">
+          <ion-thumbnail item-left>
+            <img src="assets/img/NbJMNi9RSe38Clb0dLAi_boxes-britain-city.jpg" />
+          </ion-thumbnail>
+          <h2>
+            Aprende a reciclar
+          </h2>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+    <ion-card id="respiraRecicla-card22">
+      <ion-list>
+        <ion-item color="none" menuClose="" on-click="goToNoLoQuieresReciclalo()" id="respiraRecicla-list-item5">
+          <ion-thumbnail item-left>
+            <img src="assets/img/Ce0Ntgu0QtuGvAGI3qre_black-and-white-black-and-white-connection.jpg" />
+          </ion-thumbnail>
+          <h2>
+            No lo quieres
+          </h2>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+    <ion-card id="respiraRecicla-card23">
+      <ion-list>
+        <ion-item color="none" menuClose="" on-click="goToIdeasReciclables()" id="respiraRecicla-list-item6">
+          <ion-thumbnail item-left>
+            <img src="assets/img/YYtrpVPUReK6ByMZ1SD2_blur-business-card.jpg" />
+          </ion-thumbnail>
+          <h2>
+            Ideas
+          </h2>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+    <ion-card id="respiraRecicla-card24">
+      <ion-list>
+        <ion-item color="none" id="respiraRecicla-list-item7">
+          <ion-thumbnail item-left>
+            <img src="assets/img/UcVHXkSbqoKNTbptyZ8g_challenge-connected-connection.jpg" />
+          </ion-thumbnail>
+          <h2>
+            Unete
+          </h2>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mainContent [root]="rootPage"></ion-nav>
